@@ -21,12 +21,16 @@ namespace Proekt
         private int timeOut;
         private static int maxTime = 600;
         private bool OnOff;
+        private SoundPlayer Player;
+
 
         public Form2(int c)
         {
             InitializeComponent();
             this.category = c;
             OnOff = false;
+            Player = new SoundPlayer(Resources.music);
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -83,6 +87,7 @@ namespace Proekt
                 }
                 else
                 {
+                    Player.Stop();
                     this.Close();
                 }
 
@@ -137,7 +142,23 @@ namespace Proekt
             }
         }
 
-      
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (OnOff == false)
+            {
+                button1.BackColor = Color.FromArgb(253, 253, 150);
+                Player.PlayLooping();
+                OnOff = true;
+            }
+            else
+            {
+                button1.BackColor = Color.FromArgb(220, 220, 220);
+                Player.Stop();
+                OnOff = false;
+            }
+        }
+
+
 
     }
 }
