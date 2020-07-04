@@ -158,6 +158,10 @@ namespace Proekt
             }
         }
 
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Player.Stop();
+        }
 
 
     }
