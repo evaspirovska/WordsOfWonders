@@ -1,0 +1,10 @@
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\bin\Debug\Proekt.exe.config
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\bin\Debug\Proekt.exe
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\bin\Debug\Proekt.pdb
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.csprojAssemblyReference.cache
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.Form1.resources
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.Properties.Resources.resources
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.csproj.GenerateResource.cache
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.exe
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.pdb
+C:\Users\User\Desktop\proektVizuelno\Proekt\Proekt\obj\Debug\Proekt.Form2.resources
